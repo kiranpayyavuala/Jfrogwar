@@ -8,10 +8,16 @@
 	<name>mavewebappdemo Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 <distributionManagement>
-   <snapshotRepository>
-      <id>vamsirepo</id>
-      <url>http://54.196.253.52:8081/artifactory/repo/</url>
-   </snapshotRepository>
+    <repository>
+        <id>central</id>
+        <name>jfrog-releases</name>
+        <url>http://54.196.253.52:8081/artifactory/repo</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog-snapshots</name>
+        <url>http://54.196.253.52:8081/artifactory/repo</url>
+    </snapshotRepository>
 </distributionManagement>
 	<dependencies>
 		<dependency>
