@@ -10,7 +10,7 @@
 <distributionManagement>
    <snapshotRepository>
       <id>vamsirepo</id>
-      <url>http://54.175.21945:8081/artifactory/example-repo-local/</url>
+      <url>http://54.196.253.52:8081/artifactory/repo/</url>
    </snapshotRepository>
 </distributionManagement>
 	<dependencies>
